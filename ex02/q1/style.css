@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(61, 74, 82);
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gradi_radial{
+    height: 300px;
+    width: 400px;
+    margin: 25px 70px;
+    background-image: radial-gradient(red, yellow, green);
+    
+}
+
+.gradi_cone{
+    height: 300px;
+    width: 400px;
+    margin: 25px 70px;
+    background-image: conic-gradient(red, yellow, green);
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
