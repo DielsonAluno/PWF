@@ -1,0 +1,46 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-image: url(imagens/fundo-f1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1, h2{
+    background-color: black;
+    color: white;
+    background-image: url(imagens/bandeira2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+p{
+    line-height: 2;
+    text-indent: 10%;
+}
+
+img{
+    margin: -8px;
+}
+ul{
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover { color: rgb(197, 168, 0);
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}

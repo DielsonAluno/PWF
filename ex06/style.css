@@ -22,3 +22,9 @@ a:active {
 p{
     text-align: justify;
 }
+
+img{
+    width: 100px;
+    margin: 10px;
+    
+}
