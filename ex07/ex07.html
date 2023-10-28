@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios sobre HTML e CSS 07 - Tabelas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Crie uma tabela com 5 colunas e 5 linhas que contenham informações sobre filmes, incluindo título, diretor, ano de lançamento, gênero e classificação.</h2>
+    <table>
+        <tr>
+            <td>título</td>
+            <td>diretor</td>
+            <td>ano de lançamento</td>
+            <td>gênero</td>
+            <td>classificação</td>
+        </tr>
+        <tr>
+            <td>Gato de Botas 2: O Último Pedido</td>
+            <td> Joel Crawford</td>
+            <td>2022</td>
+            <td> Infantil</td>
+            <td>Livre</td>
+        </tr>
+        <tr>
+            <td>O Auto Da Compadecida</td>
+            <td> Guel Arraes</td>
+            <td>2000</td>
+            <td>Comédia</td>
+            <td>12 anos</td>
+        </tr>
+        <tr>
+            <td> The Lost World: Jurassic Park</td>
+            <td>Steven Spielberg</td>
+            <td>1997</td>
+            <td> Aventura, Ficção-Científica</td>
+            <td>12 anos</td>
+        </tr>
+        <tr>
+            <td> Ghost In The Shell</td>
+            <td>Rupert Sanders</td>
+            <td>2017</td>
+            <td> Ação, Ficção-Científica</td>
+            <td> 14 anos</td>
+        </tr>
+    </table>
+    <h2>Altere a primeira linha da tabela para que contenha tags th.</h2>
+    <table>
+        <tr>
+            <th>título</th>
+            <th>diretor</th>
+            <th>ano de lançamento</th>
+            <th>gênero</th>
+            <th>classificação</th>
+        </tr>
+        <tr>
+            <td>Gato de Botas 2: O Último Pedido</td>
+            <td> Joel Crawford</td>
+            <td>2022</td>
+            <td> Infantil</td>
+            <td>Livre</td>
+        </tr>
+        <tr>
+            <td>O Auto Da Compadecida</td>
+            <td> Guel Arraes</td>
+            <td>2000</td>
+            <td>Comédia</td>
+            <td>12 anos</td>
+        </tr>
+        <tr>
+            <td> The Lost World: Jurassic Park</td>
+            <td>Steven Spielberg</td>
+            <td>1997</td>
+            <td> Aventura, Ficção-Científica</td>
+            <td>12 anos</td>
+        </tr>
+        <tr>
+            <td> Ghost In The Shell</td>
+            <td>Rupert Sanders</td>
+            <td>2017</td>
+            <td> Ação, Ficção-Científica</td>
+            <td> 14 anos</td>
+        </tr>
+    </table>
+    <h2>Crie a tabea abaixo usando rowspan</h2>
+    <table>
+        <tr>
+            <th rowspan="2">Alimento</th>
+            <th>Calorias</th>
+            <th>Proteinas</th>
+            <th>Carboidratos</th>
+            <th>Gorduras</th>
+        </tr>
+        <tr>
+            <th>kcal</th>
+            <th>g</th>
+            <th>g</th>
+            <th>g</th>
+        </tr>
+        <tr>
+            <td>Maçã</td>
+            <td>52</td>
+            <td>0,3</td>
+            <td>13,8</td>
+            <td>0,2</td>
+        </tr>
+        <tr>
+            <td>Cenoura</td>
+            <td>41</td>
+            <td>0,9</td>
+            <td>9,6</td>
+            <td>0,2</td>
+        </tr>
+    </table>
+    <h2>Altere as numerações da tabela anterior para ficarem alinhadas ao centro.</h2>
+    <table>
+        <tr>
+            <th rowspan="2">Alimento</th>
+            <th>Calorias</th>
+            <th>Proteinas</th>
+            <th>Carboidratos</th>
+            <th>Gorduras</th>
+        </tr>
+        <tr>
+            <th>kcal</th>
+            <th>g</th>
+            <th>g</th>
+            <th>g</th>
+        </tr>
+        <tr>
+            <td >Maçã</td>
+            <td class="numero">52</td>
+            <td class="numero">0,3</td>
+            <td class="numero">13,8</td>
+            <td class="numero">0,2</td>
+        </tr>
+        <tr>
+            <td>Cenoura</td>
+            <td class="numero">41</td>
+            <td class="numero">0,9</td>
+            <td class="numero">9,6</td>
+            <td class="numero">0,2</td>
+        </tr>
+    </table>
+    <h2>Crie a tabela abaixo:</h2>
+    <table>
+        <tr>
+            <th rowspan="2" colspan="2">Dados Pessoais</th>
+            <th colspan="3">Informações de Contato</th>
+        </tr>
+        <tr>
+            <th>Telefone</th>
+            <th>Email</th>
+            <th>Endereço</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Nome Completo</td>
+            <td rowspan="3">Idade</td>
+            <td>(11) 1234-5678</td>
+            <td>exemplo@exemplo.com</td>
+            <td rowspan="3">Rua Exemplo, 123</td>
+
+        </tr>
+        <tr>
+            <td>(11) 9876-5432</td>
+            <td>exemplo2@exemplo.com</td>
+        </tr>
+        <tr>
+            <td>(11) 4567-8901</td>
+            <td>exemplo3@exemplo.com</td>
+        </tr>
+    </table>
+    <h2>Crie a tabela baixo atentando para o alinhamento vertical</h2>
+    <table class="q6">
+        <tr>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Idade</th>
+            <th>Altura</th>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>Silva</td>
+            <td>25</td>
+            <td class="top">1,90m</td>
+
+        </tr>
+        <tr>
+            <td>Lucas</td>
+            <td>Pereira</td>
+            <td>35</td>
+            <td class="mid">1,70m</td>
+        </tr>
+        <tr>
+            <td>Camila</td>
+            <td>Santos</td>
+            <td>28</td>
+            <td class="bottom">1,50m</td>
+        </tr>
+    </table>
+    <h2>Crie um tabuleiro de dama. As células devem ter preenchimento branco e preto. Adicionalmente, as células com peças devem ter formatação CSS com um background image correspondente.</h2>
+    <table class="dama">
+        <tr class="linha">
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+        </tr>
+        <tr class="linha">
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+        </tr>
+        <tr class="linha">
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+        </tr>
+        <tr class="linha">
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+        </tr>
+        <tr class="linha">
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+        </tr>
+        <tr class="linha">
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+        </tr>
+        <tr class="linha">
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+        </tr>
+        <tr class="linha">
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+            <td class="casa"></td>
+        </tr>
+    </table>
+</body>
+</html>

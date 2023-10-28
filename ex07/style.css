@@ -1,0 +1,38 @@
+table{
+    border-collapse: collapse;
+    border-spacing:1px;
+    margin: auto;
+}
+.q6{
+    width: 200px;
+    height: 200px;
+}
+.dama{
+    width: 400px;
+    height: 100px;
+}
+.casa {
+    width: 50px;
+    height: 50px;}
+
+
+td, th {
+    border: 1px solid black;
+}
+
+.numero{
+    text-align: center;
+}
+.top { vertical-align: top;}
+.mid { vertical-align: middle; }
+.bottom { vertical-align: bottom; }
+
+.linha:nth-child(even) {
+    .casa:nth-child(even){
+    background-color: rgb(0, 0, 0);}
+}
+
+.linha:nth-child(odd) {
+    .casa:nth-child(odd){
+    background-color: black;}
+}
